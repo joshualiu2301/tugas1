@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+/* stle hp */
+body {
+    background-color: red;
+}
+
+img {
+    width: 25%;
+}
+
+/* style tablet */
+@media screen and (min-width : 600px) {
+    body {
+        background-color: green;
+    }
+}
+
+/* style desktop */
+@media screen and (min-width : 992px)  {
+    body {
+        background-color: #eaa8a8;
+    }
+}
