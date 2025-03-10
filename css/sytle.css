@@ -7,14 +7,12 @@ body {
     background-color: red;
 }
 
-img {
-    width: 25%;
-}
+
 
 /* style tablet */
 @media screen and (min-width : 600px) {
     body {
-        background-color: green;
+        background-color: rgb(221, 9, 154);
     }
 }
 
