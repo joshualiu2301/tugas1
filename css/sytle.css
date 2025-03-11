@@ -6,13 +6,21 @@
 body {
     background-color: rgb(156, 74, 74);
 }
-
+image{
+    width: 100%;
+}
 
 
 /* style tablet */
 @media screen and (min-width : 600px) {
     body {
         background-color: rgb(221, 9, 154);
+    }
+    .image{
+        float: left;
+        width: 33.3%;
+        align-items: center;
+        display: flex;
     }
 }
 
