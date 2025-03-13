@@ -16,12 +16,8 @@ image{
     body {
         background-color: rgb(221, 9, 154);
     }
-    .image{
-        float: left;
-        width: 33.3%;
-        align-items: center;
-        display: flex;
-    }
+    
+    .col-md-6{width: 50%;}
 }
 
 /* style desktop */
