@@ -1,28 +1,26 @@
-* {
-    box-sizing: border-box;
+body{
+    background-color: blue;
 }
 
-/* stle hp */
-body {
-    background-color: rgb(156, 74, 74);
+.row img{
+ width: 100px;
+ height: 200px;
+
+
 }
-image{
+
+.row{
     width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+ 
 }
-
-
-/* style tablet */
-@media screen and (min-width : 600px) {
-    body {
-        background-color: rgb(221, 9, 154);
-    }
-    
-    .col-md-6{width: 50%;}
-}
-
-/* style desktop */
-@media screen and (min-width : 992px)  {
-    body {
-        background-color: #eaa8a8;
+@media screen and (max-width: 768px) {
+    .row{
+       flex-direction: column;
+        align-items: center;
+     
     }
 }
